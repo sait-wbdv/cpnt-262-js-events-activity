@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event Carnival</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>JavaScript Event Carnival</h1>
+  <p>Explore each station to learn about different JavaScript events!</p>
+
+  <section id="stations">
+    <!-- Station 1: Click Event -->
+    <div class="station" id="station-click">
+      <h2>Station 1: Click Me!</h2>
+      <p>Click the button below to see the event in action.</p>
+      <button id="click-me">Click Me!</button>
+    </div>
+
+    <!-- Station 2: Mouse Events -->
+    <div class="station" id="station-mouse">
+      <h2>Station 2: Mouse Tracker</h2>
+      <p>Move your mouse over the box to change its color.</p>
+      <div id="hover-area">Hover over me!</div>
+    </div>
+
+    <!-- Station 3: Keyboard Events -->
+    <div class="station" id="station-keyboard">
+      <h2>Station 3: Key Press Challenge</h2>
+      <input type="text" id="key-input" placeholder="Type here..." />
+      <p id="key-output">Press a key...</p>
+    </div>
+
+    <!-- Station 4: Form Submit Event -->
+    <div class="station" id="station-form">
+      <h2>Station 4: Form Submit Fun</h2>
+      <form id="submit-form">
+        <input type="text" placeholder="Your name" required />
+        <button type="submit">Submit</button>
+      </form>
+      <p id="form-message"></p>
+    </div>
+
+    <!-- Station 5: Window Events -->
+    <div class="station" id="station-window">
+      <h2>Station 5: Resize and Scroll</h2>
+      <p id="scroll-message">Scroll or resize the window to see a change!</p>
+    </div>
+  </section>
+</body>
+</html>

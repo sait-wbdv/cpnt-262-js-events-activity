@@ -99,3 +99,24 @@ input[type="text"] {
   margin-top: 20px;
   color: #28a745;
 }
+
+.outer, .middle, .inner {
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.outer {
+  background-color: #4CAF50;
+}
+
+.middle {
+  background-color: #66BB6A;
+  cursor: pointer;
+}
+
+.inner {
+  background-color: #81C784;
+  cursor: pointer;
+}
